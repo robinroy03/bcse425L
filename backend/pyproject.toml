@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "gradio>=5.23.3",
+    "gradio-webrtc>=0.0.31",
+    "numpy>=2.2.4",
+    "python-dotenv>=1.1.0",
+    "websockets>=15.0.1",
+]
